@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.04d55131.css",
-    "main.js": "/static/js/main.36ad3b5c.js",
+    "main.js": "/static/js/main.e75ca8f4.js",
     "static/js/787.f2a0fa2f.chunk.js": "/static/js/787.f2a0fa2f.chunk.js",
     "static/media/av.png": "/static/media/av.c7aab2e0b22e9daaa141.png",
     "static/media/challah2.png": "/static/media/challah2.d9fececea3876e6c9b1e.png",
+    "static/media/hmbread1.png": "/static/media/hmbread1.113ff31b3caf2cc518ef.png",
     "static/media/redux_logo.png": "/static/media/redux_logo.1b4bb5fceb01b19da59d.png",
     "static/media/react_logo.png": "/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
     "static/media/challah1.png": "/static/media/challah1.0e0b529a96df3e8ad105.png",
@@ -19,11 +20,11 @@
     "static/media/js_logo.png": "/static/media/js_logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.04d55131.css.map": "/static/css/main.04d55131.css.map",
-    "main.36ad3b5c.js.map": "/static/js/main.36ad3b5c.js.map",
+    "main.e75ca8f4.js.map": "/static/js/main.e75ca8f4.js.map",
     "787.f2a0fa2f.chunk.js.map": "/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04d55131.css",
-    "static/js/main.36ad3b5c.js"
+    "static/js/main.e75ca8f4.js"
   ]
 }
