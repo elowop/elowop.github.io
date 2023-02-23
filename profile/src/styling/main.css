@@ -1,0 +1,140 @@
+@import url(//db.onlinewebfonts.com/c/2ab02c2937018ee7f2ccc346929ccf57?family=Artifakt+Element);
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+@font-face {
+    font-family: "Artifakt Element"; 
+    src: url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.eot"); 
+    src: url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/2ab02c2937018ee7f2ccc346929ccf57.svg#Artifakt Element") format("svg"); 
+}
+
+* {
+    font-family: "Artifakt Element", "Arial", sans-serif;
+    /* font-family: "Franklin Gothic", Arial, sans-serif;  */
+    /* font-family: 'Bahnschrift', sans-serif; */
+
+}
+
+.highlight {
+    background: linear-gradient(120deg, #d6edff 0%, #d6edff 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: 0 60%;
+}
+
+.container_profile {
+    display: flex; 
+    flex-direction: row;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10vh !important;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    height: 200px; 
+    width: 200px;
+}
+
+.info-rows {
+    margin-top: 10px !important;
+}
+
+.flip-button {
+    text-align: right;
+}
+
+.links-row {
+    text-align: right;
+}
+
+.name {
+    margin-top: 80px !important;
+    font-size: 50px;
+    margin-bottom: -2% !important;
+}
+
+.no-g-col {
+    padding-right: 0px !important; 
+    width: 10% !important; 
+}
+
+.list {
+    padding-left: 5% !important; 
+}
+
+.tw-col {
+    padding-left: 0px !important;
+}
+
+.lang_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.icon_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  a {
+      color: black !important;
+      text-decoration: none !important;
+  }
+
+  a:hover {
+      opacity: 70%;
+  }
+
+  @keyframes slidein { 
+    0% {
+        opacity: 0%;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0%);
+    }
+  }
+  
+  .socials img {
+    animation: slidein 1s linear;
+    animation-fill-mode: both;
+  }
+/*   
+  .socials img:nth-child(1) { animation-delay: .5s }
+  .socials img:nth-child(2) { animation-delay: 1s } */

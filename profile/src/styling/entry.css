@@ -1,0 +1,30 @@
+.entry_container {
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+}
+
+.img_container {
+    height: 200px !important;
+}
+
+.img_sizing {
+    /* width: 100%; */
+    max-width: 200px;
+    height: 100%; 
+}
+
+.lang_icon {
+    width: 15px;
+    height: 15px;
+    opacity: 70%;
+}
+
+.website_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    padding-left: 5% !important; 
+}

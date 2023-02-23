@@ -1,0 +1,7 @@
+.container-breadblog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 5vh !important;
+}
