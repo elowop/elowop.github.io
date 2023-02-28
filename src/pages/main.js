@@ -28,9 +28,9 @@ export default class Main extends Component {
             <Container fluid>
                 <Row className="container-main">
                     <Col md={5}>
-                        <Row style={{marginBottom: "40px"}}>
+                        <Row className="title_row">
                             <Col className="profile" md={4}>
-                                <img src={Av} alt="profile"/> 
+                                <img src={Av} alt="profile" class="img-fluid"/> 
                             </Col>
                             <Col>
                                 <Row>
@@ -149,7 +149,6 @@ export default class Main extends Component {
                                 <ul>
                                     <li>trying new bread recipes</li>
                                     <li>learning the terrain park on skis</li>
-                                    {/* <li>learning photoshop!</li> */}
                                 </ul>
                             </Row>
                         </Row>

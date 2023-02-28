@@ -4,16 +4,6 @@
     max-height: 500px;
 }
 
-.img_container {
-    height: 200px !important;
-}
-
-.img_sizing {
-    /* width: 100%; */
-    max-width: 200px;
-    height: 100%; 
-}
-
 .lang_icon {
     width: 15px;
     height: 15px;
@@ -25,6 +15,23 @@
     flex-direction: row;
 }
 
-.list {
+.list_bread {
     padding-left: 5% !important; 
+    margin-bottom: 4vh;
+}
+
+@media (max-width: 768px) {
+     .img_container {
+        height: 150px;
+        width: 150px; 
+        margin-bottom: 3vh;
+    } 
+
+    .media_spacing {
+        margin: 0% 2% 0% 2%;
+    }
+
+    .entry_container {
+        flex-direction: column
+    }
 }

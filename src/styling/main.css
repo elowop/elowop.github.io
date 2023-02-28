@@ -41,8 +41,33 @@
 .profile {
     display: flex;
     justify-content: left;
-    height: 200px; 
-    width: 200px;
+    height: 33%;
+}
+
+.title_row {
+    margin-bottom: 40px;
+    align-items: end;
+}
+
+@media (max-width: 780px) {
+    .profile {
+        max-width: 33% !important;
+    }
+
+    .title_row {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .name {
+        margin-top: 20px !important;
+        font-size: 50px;
+        margin-bottom: -2% !important;
+    }
+
+    .info-rows {
+        padding: 0% 2% 0% 2%;
+    }
 }
 
 .info-rows {
@@ -58,9 +83,8 @@
 }
 
 .name {
-    margin-top: 80px !important;
     font-size: 50px;
-    margin-bottom: -2% !important;
+    margin-bottom: -2%;
 }
 
 .no-g-col {

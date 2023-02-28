@@ -12,10 +12,12 @@ export default class Entry extends Component {
         return(
             <Container fluid>
                 <Row className="entry_container">
-                    <Col className="img_container" md={3}>
-                        <img class="img_sizing" src={this.props.display_image} alt="bread" />
+                    <Col md={3}>
+                        <div className="img_container">
+                            <img src={this.props.display_image} alt="bread" class="img-fluid"/>
+                        </div>
                     </Col>
-                    <Col>
+                    <Col className="media_spacing">
                         <Row>
                             <span style={{padding: "0px", fontWeight:"bold"}}>
                                 {this.props.title}
@@ -36,7 +38,7 @@ export default class Entry extends Component {
                                 Notes and Observations:
                             </Row>
                             <Row>
-                                <ul className="list">
+                                <ul className="list_bread">
                                     {this.props.desc.map(desc => (
                                         <li>{desc}</li>
                                     ))}

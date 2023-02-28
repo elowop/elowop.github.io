@@ -23,13 +23,13 @@ export default {
         image: challah2
       },
       {
-        title: "Hokkaido Milk Bread by Diyar ",
+        title: "Hokkaido Milk Bread from Mildly Meadnering Baked by Diyar",
         link: "https://mildlymeandering.com/hokkaido-milk-bread-shokupan/",
         description: ["It has a soft interior with a crispy, egg-brushed exterior makes for a nice dessert bread.",
           "Making the starter (tangzhong) for the bread is tricky and requires delicate work with low heat",
           "Be weary to use a piece of tin-foil if the egg-wash starts to burn",
           "This recipe requires around 4 hours to make"],
-        rating: "7",
+        rating: "6.5",
         image: hmbread1
       }
     ]
