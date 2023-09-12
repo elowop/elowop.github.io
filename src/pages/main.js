@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import '../styling/main.css';
 import Av from '../images/av.png'; 
 import { Link } from "react-router-dom";
-import Resume from '../images/3B Resume.pdf';
+import Resume from '../images/Resume PA.pdf';
 import Typewriter from 'typewriter-effect';
 import Python_logo from '../images/python_logo.png';
 import Docker_logo from '../images/docker_logo.png';
