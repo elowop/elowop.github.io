@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a583b37.css",
-    "main.js": "/static/js/main.9a3c4c27.js",
+    "main.js": "/static/js/main.edc69c9e.js",
     "static/js/787.f2a0fa2f.chunk.js": "/static/js/787.f2a0fa2f.chunk.js",
     "static/media/av.png": "/static/media/av.c7aab2e0b22e9daaa141.png",
     "static/media/challah2.png": "/static/media/challah2.d9fececea3876e6c9b1e.png",
@@ -9,8 +9,9 @@
     "static/media/redux_logo.png": "/static/media/redux_logo.1b4bb5fceb01b19da59d.png",
     "static/media/react_logo.png": "/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
     "static/media/challah1.png": "/static/media/challah1.0e0b529a96df3e8ad105.png",
-    "static/media/W23 Resume.pdf": "/static/media/W23 Resume.53fd8425c33183218881.pdf",
+    "static/media/Resume PA.pdf": "/static/media/Resume PA.44b1301662f2c6496680.pdf",
     "static/media/cl.pdf": "/static/media/cl.b8077426b8c09a0f79e3.pdf",
+    "static/media/kotlin_logo.png": "/static/media/kotlin_logo.9d341108292bd56a2533.png",
     "static/media/jenkins_logo.png": "/static/media/jenkins_logo.cb386fbcd9df20736363.png",
     "static/media/java_logo.png": "/static/media/java_logo.ddf8676bd569fe01ab44.png",
     "static/media/link_icon.png": "/static/media/link_icon.4e0d1c3de017ff5715c8.png",
@@ -21,11 +22,11 @@
     "static/media/js_logo.png": "/static/media/js_logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "main.1a583b37.css.map": "/static/css/main.1a583b37.css.map",
-    "main.9a3c4c27.js.map": "/static/js/main.9a3c4c27.js.map",
+    "main.edc69c9e.js.map": "/static/js/main.edc69c9e.js.map",
     "787.f2a0fa2f.chunk.js.map": "/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a583b37.css",
-    "static/js/main.9a3c4c27.js"
+    "static/js/main.edc69c9e.js"
   ]
 }
