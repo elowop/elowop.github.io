@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import '../styling/main.css';
 import Av from '../images/av.png'; 
 import { Link } from "react-router-dom";
-import Resume from '../images/W23 Resume.pdf';
+import Resume from '../images/3B Resume.pdf';
 import Typewriter from 'typewriter-effect';
 import Python_logo from '../images/python_logo.png';
 import Docker_logo from '../images/docker_logo.png';
@@ -20,6 +20,7 @@ import git_logo from '../images/git_logo.png';
 import github_logo from '../images/github_logo.png';
 import linkedin_logo from '../images/linkedin_logo.png';
 import Email_logo from '../images/email_logo.png';
+import Kotlin_logo from '../images/kotlin_logo.png'
 
 export default class Main extends Component {
 
@@ -102,9 +103,8 @@ export default class Main extends Component {
                             </Row>
                             <Row className="list">
                                 <ul>
-                                    <li>Working at <a className="highlight" href="https://favoritemedium.com/" target="_blank" rel="noopener noreferrer">
-                                        Favourite Medium</a> as a Software Developer on the Mobile Team using Java with Kotlin
-                                        developing for the <a className="highlight" href="https://tunein.com/" target="_blank" rel="noopener noreferrer">TuneIn</a> app
+                                    <li>Working at <a className="highlight" href="https://www.intuit.com/ca/" target="_blank" rel="noopener noreferrer">
+                                        Intuit</a> as a Software Engineer on the backend for Dev Tools
                                     </li>
                                     <li>A 3rd year student studying <span className="highlight">Computational Mathematics</span> 
                                     &nbsp;at the <span className="highlight">University of Waterloo</span></li>
@@ -119,7 +119,7 @@ export default class Main extends Component {
                                 <ul>
                                     <li>
                                         As a software engineer at <a className="highlight" href="https://www.achievers.com/" target="_blank" rel="noopener noreferrer">Achievers Inc</a>'s 
-                                        Binary Experience department helping develop the platform notifications microservice
+                                        Binary Experience department helping develop platform notifications
                                     </li>
                                     <div className="icon_bar">
                                         <img className="lang_icon" alt="python" src={Python_logo}/> 
@@ -128,6 +128,13 @@ export default class Main extends Component {
                                         <img className="lang_icon" alt="jenkins" src={Jenkins_logo}/>
                                         <img className="lang_icon" alt="js" src={js_logo}/>
                                         <img className="lang_icon" alt="git" src={git_logo}/>
+                                    </div>
+                                    <li>
+                                        As a mobile developer at <a className="highlight" href="https://www.favoritemedium.com/" target="_blank" rel="noopener noreferrer">Favorite Medium Inc</a>
+                                        working on the mobile app TuneIn with Kotlin
+                                    </li>
+                                    <div className="icon_bar">
+                                        <img className="lang_icon" alt="python" src={Kotlin_logo}/> 
                                     </div>
                                     <li>
                                         As a full-stack developer at <span className="highlight">Exponet Cananda Inc</span> creating a logistics management application
@@ -147,8 +154,8 @@ export default class Main extends Component {
                             </Row>
                             <Row className="list">
                                 <ul>
-                                    <li>trying new bread recipes</li>
-                                    <li>learning the terrain park on skis</li>
+                                    <li>Going to hackathons! I was at PennApps and plan to go to HackPrinceton so come say hi!</li>
+                                    <li>On the prowl for good coffee in Toronto</li>
                                 </ul>
                             </Row>
                         </Row>
