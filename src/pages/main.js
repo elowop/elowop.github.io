@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import '../styling/main.css';
 import Av from '../images/av.png'; 
 import { Link } from "react-router-dom";
-import Resume from '../images/Resume PA.pdf';
+import Resume from '../images/Resume.pdf';
 import Typewriter from 'typewriter-effect';
 import Python_logo from '../images/python_logo.png';
 import Docker_logo from '../images/docker_logo.png';
@@ -103,10 +103,7 @@ export default class Main extends Component {
                             </Row>
                             <Row className="list">
                                 <ul>
-                                    <li>Working at <a className="highlight" href="https://www.intuit.com/ca/" target="_blank" rel="noopener noreferrer">
-                                        Intuit</a> as a Software Engineer on the backend for Dev Tools
-                                    </li>
-                                    <li>A 3rd year student studying <span className="highlight">Computational Mathematics</span> 
+                                    <li>A 5th year student studying <span className="highlight">Computational Mathematics</span> 
                                     &nbsp;at the <span className="highlight">University of Waterloo</span></li>
                                 </ul>
                             </Row>
@@ -117,9 +114,20 @@ export default class Main extends Component {
                             </Row>
                             <Row className="list">
                                 <ul>
+                                    <li>As a Software Engineer I on <a className="highlight" href="https://www.intuit.com/ca/" target="_blank" rel="noopener noreferrer">
+                                        Intuit Inc</a>'s DevX team, focused on backend development and tools to increase developer efficiency
+                                    </li>
+                                    <div className="icon_bar">
+                                        <img className="lang_icon" alt="java" src={Java_logo}/> 
+                                        <img className="lang_icon" alt="docker" src={Docker_logo}/>
+                                        <img className="lang_icon" alt="sql" src={SQL_logo}/>
+                                        <img className="lang_icon" alt="jenkins" src={Jenkins_logo}/>
+                                        <img className="lang_icon" alt="js" src={js_logo}/>
+                                        <img className="lang_icon" alt="git" src={git_logo}/>
+                                    </div>
                                     <li>
-                                        As a software engineer at <a className="highlight" href="https://www.achievers.com/" target="_blank" rel="noopener noreferrer">Achievers Inc</a>'s 
-                                        Binary Experience department helping develop platform notifications
+                                        As a Software Engineer on <a className="highlight" href="https://www.achievers.com/" target="_blank" rel="noopener noreferrer">Achievers Inc</a>'s 
+                                        Binary Experience department and helped build platform notifications
                                     </li>
                                     <div className="icon_bar">
                                         <img className="lang_icon" alt="python" src={Python_logo}/> 
@@ -130,14 +138,14 @@ export default class Main extends Component {
                                         <img className="lang_icon" alt="git" src={git_logo}/>
                                     </div>
                                     <li>
-                                        As a mobile developer at <a className="highlight" href="https://www.favoritemedium.com/" target="_blank" rel="noopener noreferrer">Favorite Medium Inc</a>
-                                        working on the mobile app TuneIn with Kotlin
+                                        As a Mobile Developer at <a className="highlight" href="https://www.favoritemedium.com/" target="_blank" rel="noopener noreferrer">Favorite Medium Inc</a>
+                                        &nbsp;and worked on the TuneIn app in Kotlin
                                     </li>
                                     <div className="icon_bar">
                                         <img className="lang_icon" alt="python" src={Kotlin_logo}/> 
                                     </div>
                                     <li>
-                                        As a full-stack developer at <span className="highlight">Exponet Cananda Inc</span> creating a logistics management application
+                                        As a Full Stack developer at <span className="highlight">Exponet Cananda Inc</span> and created features for a logistics management application
                                     </li>
                                     <div className="icon_bar">
                                         <img className="lang_icon" alt="java" src={Java_logo}/>
@@ -154,7 +162,7 @@ export default class Main extends Component {
                             </Row>
                             <Row className="list">
                                 <ul>
-                                    <li>Going to hackathons! I was at PennApps and plan to go to HackPrinceton so come say hi!</li>
+                                    <li>Travelling! Recently, I've completed a tour through the south of China and experienced Japan's biggest cities</li>
                                     <li>On the prowl for good coffee in Toronto</li>
                                 </ul>
                             </Row>
